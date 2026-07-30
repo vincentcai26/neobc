@@ -1,0 +1,64 @@
+(aims-post) ubuntu@cpu32-dy-c7iflexlarge16-1:~/neobc/graphenebcd$ python velocitypostprocess.py
+Processing 160000 k-points, 8 bands.
+Fermi Energy used: -0.181396 eV
+Cell volume: 552.433645 bohr^3
+[progress]   5.00% (8000/160000) elapsed=     3.4s
+[progress]  10.00% (16000/160000) elapsed=     6.4s
+[progress]  15.00% (24000/160000) elapsed=     9.4s
+[progress]  20.00% (32000/160000) elapsed=    12.4s
+[progress]  25.00% (40000/160000) elapsed=    15.4s
+[progress]  30.00% (48000/160000) elapsed=    18.4s
+[progress]  35.00% (56000/160000) elapsed=    21.5s
+[progress]  40.00% (64000/160000) elapsed=    24.5s
+[progress]  45.00% (72000/160000) elapsed=    27.5s
+[progress]  50.00% (80000/160000) elapsed=    30.5s
+[progress]  55.00% (88000/160000) elapsed=    33.6s
+[progress]  60.00% (96000/160000) elapsed=    36.6s
+[progress]  65.00% (104000/160000) elapsed=    39.7s
+[progress]  70.00% (112000/160000) elapsed=    42.6s
+[progress]  75.00% (120000/160000) elapsed=    45.5s
+[progress]  80.00% (128000/160000) elapsed=    48.3s
+[progress]  85.00% (136000/160000) elapsed=    51.2s
+[progress]  90.00% (144000/160000) elapsed=    54.1s
+[progress]  95.00% (152000/160000) elapsed=    56.9s
+[progress] 100.00% (160000/160000) elapsed=    59.8s
+--------------------------------------------------
+NON-LINEAR TOPOLOGICAL INTEGRATION COMPLETE
+--------------------------------------------------
+Berry Curvature Dipole Tensor D_ab (atomic units):
+[[-1.68887629e-13 -4.35329862e-13 -7.40152922e-21]
+ [ 9.08836824e-13  9.57928937e-14 -2.29819097e-19]
+ [ 3.59559535e-12  3.30760665e-11  2.38697352e-23]]
+
+
+(aims-post) ubuntu@cpu32-dy-c7iflexlarge16-1:~/neobc/graphenebcd$ python velocitypostprocess.py 
+Processing 160000 k-points, 8 bands.
+Fermi Energy used: -0.181262 eV
+Cell volume: 552.433645 bohr^3
+[progress]   5.00% (8000/160000) elapsed=     2.9s
+[progress]  10.00% (16000/160000) elapsed=     5.7s
+[progress]  15.00% (24000/160000) elapsed=     8.6s
+[progress]  20.00% (32000/160000) elapsed=    11.5s
+[progress]  25.00% (40000/160000) elapsed=    14.3s
+[progress]  30.00% (48000/160000) elapsed=    17.2s
+[progress]  35.00% (56000/160000) elapsed=    20.1s
+[progress]  40.00% (64000/160000) elapsed=    22.9s
+[progress]  45.00% (72000/160000) elapsed=    25.8s
+[progress]  50.00% (80000/160000) elapsed=    28.7s
+[progress]  55.00% (88000/160000) elapsed=    31.5s
+[progress]  60.00% (96000/160000) elapsed=    34.4s
+[progress]  65.00% (104000/160000) elapsed=    37.2s
+[progress]  70.00% (112000/160000) elapsed=    40.1s
+[progress]  75.00% (120000/160000) elapsed=    43.0s
+[progress]  80.00% (128000/160000) elapsed=    45.8s
+[progress]  85.00% (136000/160000) elapsed=    48.7s
+[progress]  90.00% (144000/160000) elapsed=    51.6s
+[progress]  95.00% (152000/160000) elapsed=    54.4s
+[progress] 100.00% (160000/160000) elapsed=    57.3s
+--------------------------------------------------
+NON-LINEAR TOPOLOGICAL INTEGRATION COMPLETE
+--------------------------------------------------
+Berry Curvature Dipole Tensor D_ab (atomic units):
+[[-1.44391629e-12 -3.14629360e-10  5.14831274e-18]
+ [ 2.75936168e-12  1.52394922e-13 -4.89996128e-16]
+ [-5.97742136e-11 -1.02521044e-01 -2.61893815e-15]]

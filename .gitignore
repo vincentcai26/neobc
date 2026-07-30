@@ -1,0 +1,6 @@
+aims_restart*
+**/aims_restart*
+
+**/*.h5
+**/*.npz
+**/*.npy
